@@ -1,0 +1,28 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.container{
+  margin: auto;
+}
+
+body{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+}
+
+header .topsection{
+
+}
+@theme{
+  --color-brand : #008ECC;
+  --color-primary : #ff5252;
+  --color-secondary : #F5F5F5;
+  --color-third : #F3F9FB;
+  --color-theme : #fff;
+  --font-primary:"Montserrat", sans-serif;
+}
+
+.link:hover{
+  font-weight: 800;
+}
