@@ -9,13 +9,14 @@
 body{
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
+  background-color: #eeeee4;
 }
 
 header .topsection{
 
 }
 @theme{
-  --color-brand : #008ECC;
+  --color-brand : #FC8A06;
   --color-primary : #ff5252;
   --color-secondary : #F5F5F5;
   --color-third : #F3F9FB;
@@ -24,5 +25,13 @@ header .topsection{
 }
 
 .link:hover{
-  font-weight: 800;
+  color: #FC8A06;
+}
+
+.MuiBadge-badge{
+  background-color: #FC8A06 !important;
+}
+
+nav ul button:hover{
+  background: none !important;
 }
